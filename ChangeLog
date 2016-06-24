@@ -1,3 +1,7 @@
+2016-06-24  Nick Celebic <nick@celebic.net>
+    * twemproxy: version 0.5.2 release
+      redis 3.2.1 support added
+
 2016-04-27  Misha Nasledov <misha@nasledov.com>
     * twemproxy: version 0.5.1 release
       updated to latest master from twitter/twemproxy
