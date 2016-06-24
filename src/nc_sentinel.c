@@ -131,8 +131,8 @@ sentinel_proc_sentinel_info(struct context *ctx, struct server *sentinel, struct
         goto error;
     }
 
-    /* get sentinel master num at line 3 */
-    msg_read_line(msg, line_buf, 3);
+    /* get sentinel master num at line 4 */
+    msg_read_line(msg, line_buf, 4);
     if (mbuf_length(line_buf) == 0) {
         log_error("read line failed from sentinel ack info when skip line not used.");
         goto error;
